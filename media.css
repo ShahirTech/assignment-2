@@ -1,0 +1,127 @@
+@media screen and (max-width: 576px) {
+   .nav-links, .club {
+    display: none;
+   } 
+   .banner{
+    flex-direction: column;
+   }
+   .banner-des{
+    width: 100%;
+    margin-bottom: 130px;
+   }
+   .db{
+    justify-content: center;
+   }
+   .btn1, .btn2{
+    width: 169px;
+    height: 54px;
+    padding: 16px 25px 16px 25px;
+   }
+   .btn-a{
+    font-size: 1.1rem;
+    font-weight: 600;
+   }
+   .dwn{
+    font-size: 1rem;
+    /* border: 5px solid rebeccapurple; */
+   }
+
+   .navbar,.banner{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* .navbar{
+    margin-top: 50px;
+  } */
+  .bar{
+    color: aliceblue;
+    display: block;
+    font-size: 1.5rem;
+  }
+  .p1{
+    width: 274px;
+    text-align: left;
+    margin-bottom: -20px;
+  }
+  .b2{
+    width: fit-content;
+  }
+  .bt{
+    margin-top: 30px;
+  }
+  .bcard{
+    position: absolute;
+    left: -15px;
+    bottom: 250px;
+  }
+  .bcard2{
+    position: absolute;
+    left: 205px;
+    bottom: 195px;
+  }
+  .habit{
+    max-width: 338px;
+    margin: 0 auto;
+  }
+  .hhp{
+    margin-top: -25px;
+    width: 100%;
+
+  }
+  .hcard{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    grid-template-columns: 1fr;
+  }
+  .hcards{
+    margin: auto;
+  }
+  .ht{
+    font-size: 2rem;
+  }
+  .run{
+    flex-direction: column;
+    width: fit-content;
+  }
+  .runh{
+    width: fit-content;
+  }
+  .run-img2 img {
+    width: 100%;
+  }
+  .run-img{
+    display: none;
+    margin: 0 auto 35px auto;   
+  }
+  
+.hide{
+    display: block;
+    margin: 0 auto 35px auto; 
+}
+.section-title{
+    font-size: 2rem;
+}
+.sbtn{
+    width: 287px;
+    margin-top: 15px;
+}
+.sr{
+    text-align: center;
+}
+.tcard{
+  grid-template-columns: 1fr;
+  margin: auto;
+}
+.footer{
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+.f1{
+  width: 100%;
+}
+hr{
+  width: 90%;
+}
+}

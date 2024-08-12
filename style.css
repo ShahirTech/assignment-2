@@ -12,11 +12,12 @@
     line-height: 0;                                            
   }
   /* shared styles */
-  /* *{
-    margin: 0;
-  } */
+/* *{
+  border: 1px solid red;
+} */
  body{
     background: rgb(0, 0, 0);
+    /* border: 2px dashed green; */
   }
   .flex{
     display: flex;
@@ -26,7 +27,7 @@
     margin: 0 auto;
   }
   section{
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .btn{
@@ -236,6 +237,7 @@ header{
 }
 .hcards{
   width: 230px;
+  margin: auto;
 }
 .ht{
   color: rgb(255, 255, 255);
@@ -320,16 +322,19 @@ header{
  }
  .sr{
   margin: 0 auto;
-  /* border: 5px solid red; */
-  width: 1060px;
   text-align: center;
  }
+ /* .meet{
+  border: 5px solid fuchsia;
+ } */
  .tcard{
   width: fit-content;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
   margin-top: 58px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);

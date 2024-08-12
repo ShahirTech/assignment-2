@@ -7,23 +7,34 @@
    }
    .banner-des{
     width: 100%;
-    margin-bottom: 130px;
+    margin-top: -45px;
+    margin-bottom: 120px;
+   }
+   .h1{
+    font-size: 2.25rem;
+   }
+   .miama{
+    font-size: 4.5rem;
    }
    .db{
+    width: 100%;
+    /* border: 5px solid gold; */
     justify-content: center;
+    gap: 14px;
    }
    .btn1, .btn2{
-    width: 169px;
+    width: 165px;
     height: 54px;
-    padding: 16px 25px 16px 25px;
+    /* border: 3px solid cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }
    .btn-a{
+    white-space: nowrap;
+    /* border: 3px solid khaki; */
     font-size: 1.1rem;
     font-weight: 600;
-   }
-   .dwn{
-    font-size: 1rem;
-    /* border: 5px solid rebeccapurple; */
    }
 
    .navbar,.banner{
@@ -36,7 +47,7 @@
   .bar{
     color: aliceblue;
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .p1{
     width: 274px;
@@ -47,16 +58,36 @@
     width: fit-content;
   }
   .bt{
-    margin-top: 30px;
+    margin-top: 20px;
+    font-size: 1.125rem;
+    font-weight: 900;
+  }
+  .bt2{
+    font-size: 1.875rem;
+    font-weight: 900;
+  }
+  .pd{
+    font-size: .75rem;
+    font-weight: 400;
+  }
+  .pd2{
+    font-size: .6125rem;
+    font-weight: 400;
   }
   .bcard{
+    /* border: 5px solid wheat; */
+    width: 155px;
+    height: 72px;
     position: absolute;
-    left: -15px;
+    left: 5px;
     bottom: 250px;
   }
   .bcard2{
+    /* border: 5px solid wheat; */
+    width: 145px;
+    height: 74px;
     position: absolute;
-    left: 205px;
+    left: 190px;
     bottom: 195px;
   }
   .habit{
@@ -82,7 +113,7 @@
   }
   .run{
     flex-direction: column;
-    width: fit-content;
+    width: 100%;
   }
   .runh{
     width: fit-content;

@@ -29,7 +29,7 @@
   section{
     margin-top: 70px;
   }
-  .habit,.run,.meet, .bc{
+  .habit,.run,.meet, .choose, .bc{
     width: 1060px;
     /* border: 5px solid wheat; */
     margin: 0 auto;
@@ -245,6 +245,7 @@ header{
 }
 .hcards{
   width: 230px;
+  /* border: 5px solid saddlebrown; */
   margin: auto;
 }
 .ht{
@@ -270,7 +271,7 @@ header{
   font-weight: 400;
 }
 .run{
-  margin-top: 70px;
+  margin-top: 80px;
   height: fit-content;
   justify-content: space-evenly;
   align-items: center;
@@ -463,6 +464,7 @@ header{
  }
  .bmi{
   background: rgb(34, 34, 34);
+  margin-top: 80px;
   margin-bottom: 70px;
   margin-left: auto;
   margin-right: auto;
@@ -549,4 +551,22 @@ header{
   width: 100%;
   margin-top: 12px;
   color: rgba(255, 255, 255, 0.3);
+ }
+ .choose{
+  margin-bottom: 80px;
+ }
+
+ .hcards i{
+  font-size: 7rem;
+  color: rgb(230, 83, 60);
+  padding-bottom: 20px;
+ }
+ .icon h3{
+  margin-top: 34.7px;
+ }
+ .icon4 i{
+  padding-top: 10px;
+ }
+ .icon4 h3{
+  margin-top: 26px;
  }

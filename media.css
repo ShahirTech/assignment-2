@@ -199,5 +199,69 @@
 hr{
   width: 90%;
 }
+.bc{
+  flex-direction: column;
+  /* border: 5px solid red; */
+  width: 100%;
+}
+.chart table{
+  /* border: 5px solid white; */
+  margin-left: 20px;
+}
+.chart h1, .cal h1{
+  margin-left: 20px;
+  white-space: nowrap;
+}
+.cal{
+  width: 100%;
+}
+.cal p{
+  display: none;
+}
+.input {
+  margin-top: 34px;
+  padding-left: 20px;
+}
+.cal button{
+  margin: 34px auto auto auto;
+}
+input, select{
+  /* border: 5px solid hotpink; */
+  width: 150px;
+  height: 48px;
+}
+.x{
+  height: 50px;
+  width: 170px;
+}
+.ac{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+}
+@media screen and (max-width: 360px) {
+  .db button{
+    width: 50%;
+    /* border: 5px solid red; */
+    margin-right: -12px;
+  }
+  .db> div{
+    /* border: 5px solid gray; */
+    width: 100%;
+    margin-right: 10px;
+  }
+  input, select {
+    width: 70%;
+  }
+  .x{
+    width: 85%;
+  }
+  .ac{
+    width: 93%;
+  }
+  .chart table{
+    margin-left: 2px;
+  }
 }
